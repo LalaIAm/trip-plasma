@@ -1,0 +1,119 @@
+{
+  "props": [
+    {
+      "name": "100vh",
+      "type": "spacing",
+      "value": "100vh",
+      "category": "spacing",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "_RWEghA4i"
+      }
+    },
+    {
+      "name": "Accent",
+      "type": "color",
+      "value": "#6E9684",
+      "category": "color",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "q1uarFcU8"
+      }
+    },
+    {
+      "name": "Danger",
+      "type": "color",
+      "value": "#F44336",
+      "category": "color",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "Nt_tjfj-q"
+      }
+    },
+    {
+      "name": "Dark",
+      "type": "color",
+      "value": "#1F1D25",
+      "category": "color",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "4e-trAqnT"
+      }
+    },
+    {
+      "name": "Headline",
+      "type": "fontfamily",
+      "value": "Manrope",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "kqUVmZtiA"
+      }
+    },
+    {
+      "name": "Light",
+      "type": "color",
+      "value": "#EEF0F2",
+      "category": "color",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "A5bQJ-0K-"
+      }
+    },
+    {
+      "name": "Primary",
+      "type": "color",
+      "value": "#139267",
+      "category": "color",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "j6O41P4bf"
+      }
+    },
+    {
+      "name": "Secondary",
+      "type": "color",
+      "value": "#60B8C4",
+      "category": "color",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "hxlSnVA2u"
+      }
+    },
+    {
+      "name": "Success",
+      "type": "color",
+      "value": "#3DA657",
+      "category": "color",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "FFsWolYds"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "spacing",
+      "value": "1px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "FYK4eCg3J"
+      }
+    },
+    {
+      "name": "Warning",
+      "type": "color",
+      "value": "#BA961F",
+      "category": "color",
+      "meta": {
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "id": "_MnNAAM2c"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

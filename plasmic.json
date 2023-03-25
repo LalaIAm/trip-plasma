@@ -1,0 +1,248 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": "3.14.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic_plasmic_basic_components.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ]
+    },
+    {
+      "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
+      "projectApiToken": "L5kqyh9xqKCqpdc8gqCglVcLZTxdkkP1Dt9pLUlWpyKVItIbbXr5272ePgMpZZiezhSe0AIOuQB353jQnw",
+      "projectName": "plasmic-cms",
+      "version": "6.14.0",
+      "cssFilePath": "plasmic/plasmic_cms/plasmic_plasmic_cms.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_cms/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "w6HdOz-Pcn",
+          "name": "CmsRowField",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "Ds6UdKRHmq",
+          "name": "CmsRowLink",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "dj_Vc2QmFA",
+          "name": "CmsRowImage",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "r3UO4W-xcR",
+          "name": "CmsRowFieldValue",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "OREVbGCcgN",
+          "name": "CmsCredentialsProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "8N9-WfZSaq",
+          "name": "CmsQueryRepeater",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        }
+      ]
+    },
+    {
+      "projectId": "q81HoHETamUnN6docDuBYG",
+      "projectApiToken": "Fg0sH1qff6tw5kkIVABNG79y302xsq6AoKqYMgbd0x2yZSQc6neSTjcEOLxnFd4rufLBkoeYcVW1ZTGw",
+      "projectName": "Travel Planner",
+      "version": "latest",
+      "cssFilePath": "plasmic/travel_planner/plasmic_travel_planner.module.css",
+      "components": [
+        {
+          "id": "BNMqc9OlnMFP",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "q81HoHETamUnN6docDuBYG",
+          "renderModuleFilePath": "plasmic/travel_planner/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/travel_planner/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "WNfjecg9kIP",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "q81HoHETamUnN6docDuBYG",
+          "renderModuleFilePath": "plasmic/travel_planner/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/travel_planner/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "ValCC7FDbx",
+          "name": "SignUpLogin",
+          "type": "managed",
+          "projectId": "q81HoHETamUnN6docDuBYG",
+          "renderModuleFilePath": "plasmic/travel_planner/PlasmicSignUpLogin.jsx",
+          "importSpec": {
+            "modulePath": "SignUpLogin.jsx"
+          },
+          "cssFilePath": "plasmic/travel_planner/PlasmicSignUpLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "5hjPTTFEdUE",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "q81HoHETamUnN6docDuBYG",
+          "renderModuleFilePath": "plasmic/travel_planner/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/travel_planner/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "XbrVA9Q5vk",
+          "name": "Dashboard",
+          "type": "managed",
+          "projectId": "q81HoHETamUnN6docDuBYG",
+          "renderModuleFilePath": "plasmic/travel_planner/PlasmicDashboard.jsx",
+          "importSpec": {
+            "modulePath": "Dashboard.jsx"
+          },
+          "cssFilePath": "plasmic/travel_planner/PlasmicDashboard.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "EEmwoCi7Bj",
+          "name": "NavLink",
+          "type": "managed",
+          "projectId": "q81HoHETamUnN6docDuBYG",
+          "renderModuleFilePath": "plasmic/travel_planner/PlasmicNavLink.jsx",
+          "importSpec": {
+            "modulePath": "NavLink.jsx"
+          },
+          "cssFilePath": "plasmic/travel_planner/PlasmicNavLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "FCQRss-iDqk",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/travel_planner/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "HjxXNamACUz",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/travel_planner/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "SfCwwY7368b",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/travel_planner/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "m-gXbb4aUr",
+          "name": "CarRoofBoxSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/travel_planner/icons/PlasmicIcon__CarRoofBoxSvgrepoComsvg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "2Do-S75EDXu",
+          "name": "image",
+          "filePath": "plasmic/travel_planner/images/image.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/travel_planner/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "ZifRRWG3ei",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "_Z1k7dLXwa",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Ry01v-SlMPFTj",
+        "name": "Screen",
+        "projectId": "q81HoHETamUnN6docDuBYG",
+        "contextFilePath": "plasmic/travel_planner/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.242",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.242/dist/plasmic.schema.json"
+}

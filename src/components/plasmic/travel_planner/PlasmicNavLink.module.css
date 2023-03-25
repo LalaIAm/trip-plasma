@@ -1,0 +1,17 @@
+.navLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.navLink:hover .slotTargetIcon {
+  color: var(--token-_MnNAAM2c);
+}
+.svg__snj8H {
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-A5bQJ-0K-);
+  width: 100%;
+  height: 44px;
+  min-width: 0;
+}
